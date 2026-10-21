@@ -59,6 +59,10 @@ function RootLayoutNav() {
               headerStyle: { backgroundColor: DARK_BLUE },
             }}
           >
+            <Stack.Screen
+              name="footer-keyboard-press"
+              options={{ title: 'Footer keyboard press repro' }}
+            />
             <Stack.Screen name="index" options={{ headerShown: false }} />
             <Stack.Screen name="standard" options={{ headerShown: false, title: 'Standard' }} />
             <Stack.Screen
