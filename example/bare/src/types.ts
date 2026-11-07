@@ -1,6 +1,7 @@
 import type { NavigatorScreenParams } from '@react-navigation/native';
 
 export type AppStackParamList = {
+  PresentKeyboard: undefined;
   SheetStack: undefined;
   Map: undefined;
   Standard: undefined;
